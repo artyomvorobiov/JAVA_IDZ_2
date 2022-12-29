@@ -6,13 +6,13 @@ public class Main {
         System.out.println("All files according to their names:");
         arr.monitor_abc();
         System.out.println();
+        System.out.println("All files in one:");
+        arr.reczavis_str();
+        arr.monitor_str();
+        System.out.println();
         System.out.println("All files according to their hierarchy:");
         // arr.usereq();
         arr.printall();
         arr.sorteq();
-        System.out.println();
-        System.out.println("All files in one:");
-        arr.reczavis_str();
-        arr.monitor_str();
     }
 }
